@@ -4,14 +4,13 @@
     padding: 0px;
 }
 
+
 /*header*/
 
 .top {
     background-color: blue;
     height: 60px;
 }
-
-
 
 .center {
     background-color: brown;
@@ -25,11 +24,36 @@ h1 {
     padding-bottom: 5%;
 }
 
-p {
+.head {
     padding-bottom: 7%;
+    color: white;
 }
 
-h1,
-p {
+h1 {
     color: white;
+}
+
+/*main*/
+
+.column {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.pic {
+    height: 200px;
+    width: 60px;
+    background-color: aquamarine;
+}
+
+.text {
+    height: 200px;
+    width: 60px;
+    background-color: aqua;
+}
+
+/*last section*/
+.bottom-pic {
+    background-color: blue;
 }
