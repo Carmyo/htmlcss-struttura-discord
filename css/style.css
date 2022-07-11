@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+/*header*/
+
+.top {
+    background-color: blue;
+    height: 60px;
+}
+
+
+
+.center {
+    background-color: brown;
+    text-align: center;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+h1 {
+    padding-top: 20%;
+    padding-bottom: 5%;
+}
+
+p {
+    padding-bottom: 7%;
+}
+
+h1,
+p {
+    color: white;
+}
