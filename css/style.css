@@ -54,6 +54,41 @@ h1 {
 }
 
 /*last section*/
+
+.last-section {
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
 .bottom-pic {
+    color: white;
     background-color: blue;
+    height: 250px;
+    margin-bottom: 50px;
+}
+
+/*footer*/
+
+footer {
+    margin-top: 80px;
+    background-color: rgb(22, 153, 29);
+}
+
+.container {
+    background-color: blueviolet;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.logo--bottom {
+    align-self: flex-start;
+}
+
+.registrati {
+    align-self: flex-end;
 }
