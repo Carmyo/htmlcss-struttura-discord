@@ -35,6 +35,12 @@ h1 {
 
 /*main*/
 
+.container--main {
+    background-color: gold;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
 .column {
     display: flex;
     flex-direction: row;
@@ -91,4 +97,5 @@ footer {
 
 .registrati {
     align-self: flex-end;
+
 }
